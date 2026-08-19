@@ -1,1 +1,30 @@
-/* место для вашего кода */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-areas:
+  "list logo .";
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: circle;
+}
+
+.logo {
+  display:block;
+  grid-area: logo;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+}
+
+.lots {
+
+}
+
+.about {
+
+}
